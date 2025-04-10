@@ -7,7 +7,7 @@ const InputElement = styled.input`
   border-radius: 3px;
   text-align: center;
   font-size: 130%;
-  background-color: #382b5f;
+  background-color: #1586B2;
   border: none;
 `;
 

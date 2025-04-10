@@ -17,14 +17,14 @@ export const InnerContainer = styled.section`
 const ValuePropContainer = styled.h1`
   font-size: 25px;
   font-weight: bold;
-  color: #5e4996;
+  color:rgb(17, 109, 146);
   margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
 
   a {
     font-family: "Source Code Pro", monospace;
-    color: #382a5f;
+    color:rgb(14, 100, 134);
   }
 `;
 
@@ -33,7 +33,7 @@ const HumanTextWrapper = styled.div`
   padding: 10px;
   margin-left: 20px;
   font-weight: bold;
-  color: #382b5f;
+  color: #1586B2;
   font-size: 22px;
   align-items: center;
   font-family: monospace;
@@ -80,10 +80,7 @@ export default class Home extends Component<
     return (
       <InnerContainer>
         <ValuePropContainer>
-          Cron expression generator by{" "}
-          <a href="https://cronhub.io?utm_source=crontab&utm_medium=referral&utm_campaign=sideproject-campaign" title="crontab">
-            Cronhub
-          </a>. Schedule and monitor jobs without any infra work.
+          Cronhelper is a free online cron expression generator and editor. It helps you to create, edit and test cron expressions easily.
         </ValuePropContainer>
         <Wrapper>
           <Field

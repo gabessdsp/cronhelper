@@ -24,9 +24,9 @@ const HelpTable = styled.table`
   box-shadow: 0px 0px 10px rgba(48, 71, 89, 0.05);
 
   thead th {
-    background-color: #f3ebff;
-    border: 1px solid #dcc5ff;
-    color: #382b5f;
+    background-color: rgb(188, 227, 243);
+    border: 1px solid rgb(113, 149, 163);
+    color: #000;
     padding: 10px;
   }
 

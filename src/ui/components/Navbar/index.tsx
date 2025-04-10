@@ -4,7 +4,7 @@ import styled from "styled-components";
 const ContributeButton = styled.a`
   text-decoration: none;
   border-radius: 3px;
-  background-color: #382b5f;
+  background-color: #1586B2;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
@@ -33,18 +33,17 @@ const Nav = styled.nav`
 
 const Navbar = () => (
   <Nav>
-    <ul>
+    {/* <ul>
       <li>
         <ContributeButton
           target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/cronhub/crontab"
+          href="https://mckennastudios.com"
         >
-          Contribute
+          Built by McKenna Interactive
         </ContributeButton>
       </li>
       <li></li>
-    </ul>
+    </ul> */}
   </Nav>
 );
 
